@@ -35,4 +35,6 @@
 			you depend on at compile time should use the provided scope -->
 	</dependencies>
 
+	<name>Developer Tools</name>
+	<description>A collection of small tools useful to developers of GATE applications or GATE itself.</description>
 </project>
