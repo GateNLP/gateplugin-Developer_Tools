@@ -13,18 +13,7 @@
  */
 package gate.creole;
 
-import gate.Gate;
-import gate.Gate.ResourceInfo;
-import gate.creole.Plugin;
-import gate.Resource;
-import gate.creole.metadata.AutoInstance;
-import gate.creole.metadata.CreoleResource;
-import gate.gui.ActionsPublisher;
-import gate.resources.img.svg.PluginUnloaderIcon;
-import gate.util.GateException;
-
 import java.awt.event.ActionEvent;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -32,6 +21,15 @@ import java.util.Set;
 
 import javax.swing.AbstractAction;
 import javax.swing.Action;
+
+import gate.Gate;
+import gate.Gate.ResourceInfo;
+import gate.Resource;
+import gate.creole.metadata.AutoInstance;
+import gate.creole.metadata.CreoleResource;
+import gate.gui.ActionsPublisher;
+import gate.resources.img.svg.PluginUnloaderIcon;
+import gate.util.GateException;
 
 /**
  * A tool option that will try its best to unload just the plugins for which we
